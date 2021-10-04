@@ -6,6 +6,20 @@ namespace IsSimpleNumber
 {
     class Program
     {
+        public static bool IsSimple(ulong number)
+        {
+            ulong i = 2;
+            ulong d = 0;
+            while (i < number)
+            {
+                if (number % i == 0)
+                    d++;
+                i++;
+            }
+            if (d == 0)
+                return true;
+            return false;
+        }
         static void Main()
         {
             Console.OutputEncoding = Encoding.Unicode;
@@ -22,22 +36,10 @@ namespace IsSimpleNumber
                 Console.WriteLine("Введите целое положительное число");
             } while (!ulong.TryParse(Console.ReadLine(), out n));
 
-            // тут видимо забыла d создать?
-            ulong i = 0; // внимтельнее. Разве по алгоритму 0 она равна?
-            while (i < n)
-            {
-                if (n % i == 0)
-                {
-                    d++;
-                }
-                
-                i++;
-            }
-            
-            // посленяя проверка d
-            
-            
-            //Console.WriteLine("Excellent");    
+            if (IsSimple(n))
+                Console.WriteLine($"Число {n} простое");
+            else
+                Console.WriteLine($"Число {n} не простое");
         }
     }
 }
