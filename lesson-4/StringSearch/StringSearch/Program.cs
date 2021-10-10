@@ -55,8 +55,8 @@ namespace StringSearch
             sw.Stop();
             long hashSetTime = sw.ElapsedTicks;
 
-            Console.WriteLine($"Massive: {masTime} ms");
-            Console.WriteLine($"HashSet: {hashSetTime} ms");
+            Console.WriteLine($"Massive: {masTime} ticks");
+            Console.WriteLine($"HashSet: {hashSetTime} ticks");
         } 
     }
 }
