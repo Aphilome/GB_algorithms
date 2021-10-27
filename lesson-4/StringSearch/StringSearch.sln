@@ -1,0 +1,16 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StringSearch", "StringSearch\StringSearch.csproj", "{BE9633E6-76E4-433C-9400-6A37EC9D0853}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BE9633E6-76E4-433C-9400-6A37EC9D0853}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BE9633E6-76E4-433C-9400-6A37EC9D0853}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BE9633E6-76E4-433C-9400-6A37EC9D0853}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BE9633E6-76E4-433C-9400-6A37EC9D0853}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
